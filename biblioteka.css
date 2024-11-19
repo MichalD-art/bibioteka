@@ -1,0 +1,54 @@
+/* Domyślne formatowanie wszystkich selektorów */
+* {
+    font-family: Tahoma, sans-serif;
+}
+
+/* Dla banera i stopki */
+header, footer {
+    background-color: SaddleBrown;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+
+#lewy, #prawy { 
+    background-color: Tan;
+    height: 400px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+/* Dla panelu środkowego */
+#srodkowy {
+    background-color: Wheat;
+    height: 400px;
+    width: 20%;
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    float: left;
+}
+
+/* Dla selektora obrazu */
+img {
+    margin-right: 20px;
+    float: right;
+}
+
+/* Dla selektora nagłówka czwartego stopnia */
+h4 {
+    text-align: center;
+}
+
+/* Dla selektora pola edycyjnego */
+input[type="text"], input[type="number"] {
+    margin: 5px;
+}
+
+/* Po najechaniu na element listy */
+li:hover {
+    background-color: Sienna;
+    color: white;
+}
